@@ -1,0 +1,4 @@
+2727c2727
+< #ifdef _WIN32
+---
+> #if defined(_WIN32) || defined(ESP32)
